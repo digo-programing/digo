@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toko Obat Sehat</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <style>
+        .hero {
+            background-color: aquamarine;
+        }
+        .hero h2 {
+            color: black;
+        }
+        .hero p {
+            color: black;
+           
+        }
+        .kontak {
+            background-color: antiquewhite;
+            color: rebeccapurple;
+        }
+        .produk {
+            background-image: url("i.png");
+        }
+        
+    </style>
+    <!-- Navbar -->
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>Toko Obat Sehat</h1>
+            </div>
+            <ul>
+                <li><a href="#home">Beranda</a></li>
+                <li><a href="#produk">Produk</a></li>
+                <li><a href="#promo">Promo</a></li>
+                <li><a href="#kontak">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>Obat Berkualitas untuk Kesehatan Anda</h2>
+            <p>Temukan obat terbaik untuk kebutuhan kesehatan Anda hanya di Toko Obat Sehat.</p>
+            <a href="#produk" class="cta-button">Lihat Produk</a>
+        </div>
+    </section>
+
+    <!-- Produk Section -->
+    <section id="produk" class="produk">
+        <h2>Produk Kami</h2>
+        <div class="produk-list">
+            <div class="produk-item">
+                <img src="bg.jpeg" alt="Obat 1">
+                <h3>Obat Panas</h3>
+                <p>Harga: Rp 50.000</p>
+                <a href="#">Beli Sekarang</a>
+            </div>
+            <div class="produk-item">
+                <img src="btk.jpg" alt="Obat 2">
+                <h3>Obat Batuk</h3>
+                <p>Harga: Rp 45.000</p>
+                <a href="#">Beli Sekarang</a>
+            </div>
+            <div class="produk-item">
+                <img src="pns.webp" alt="Obat 3">
+                <h3>Vitamin C</h3>
+                <p>Harga: Rp 75.000</p>
+                <a href="#">Beli Sekarang</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Promo Section -->
+    <section id="promo" class="promo">
+        <h2>Promo Spesial</h2>
+        <p>Diskon hingga 50% untuk produk tertentu! Jangan lewatkan kesempatan ini.</p>
+        <a href="#produk" class="cta-button">Lihat Promo</a>
+    </section>
+
+    <!-- Kontak Section -->
+    <section id="kontak" class="kontak">
+        <h2>Hubungi Kami</h2>
+        <form>
+            <label for="nama">Nama:</label>
+            <input type="text" id="nama" name="nama" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="pesan">Pesan:</label>
+            <textarea id="pesan" name="pesan" rows="4" required></textarea>
+            
+            <button type="submit">Kirim Pesan</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Toko Obat Sehat. Semua hak cipta dilindungi.</p>
+    </footer>
+
+</body>
+</html>
